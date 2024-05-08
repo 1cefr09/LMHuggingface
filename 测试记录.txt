@@ -1,0 +1,350 @@
+用以epoch=2
+预训练模型
+Accuracy: 0.6444954128440367
+
+
+只有fc4旁路
+fc_4.weight
+fc_4.bias
+                                                                                     
+{'eval_loss': 0.5099650025367737, 'eval_accuracy': 0.7511467889908257, 'eval_runtime': 51.8826, 'eval_samples_per_second': 16.807, 'eval_steps_per_second': 0.27, 'epoch': 1.0}                                                                                                          
+{'eval_loss': 0.5032490491867065, 'eval_accuracy': 0.7511467889908257, 'eval_runtime': 51.7669, 'eval_samples_per_second': 16.845, 'eval_steps_per_second': 0.27, 'epoch': 2.0}    
+{'train_runtime': 496.6463, 'train_samples_per_second': 271.215, 'train_steps_per_second': 4.24, 'train_loss': 0.5680737635801774, 'epoch': 2.0}   
+Accuracy: 0.7511467889908257
+
+fc4 fc5
+fc_4.weight
+fc_4.bias
+fc_5.weight
+fc_5.bias
+{'eval_loss': 0.4866625964641571, 'eval_accuracy': 0.7672018348623854, 'eval_runtime': 35.2322, 'eval_samples_per_second': 24.75, 'eval_steps_per_second': 0.397, 'epoch': 1.0}   
+{'eval_loss': 0.4795757234096527, 'eval_accuracy': 0.7694954128440367, 'eval_runtime': 50.6344, 'eval_samples_per_second': 17.221, 'eval_steps_per_second': 0.276, 'epoch': 2.0}  
+{'train_runtime': 479.3406, 'train_samples_per_second': 281.007, 'train_steps_per_second': 4.394, 'train_loss': 0.5530891382230086, 'epoch': 2.0}
+
+fc3 fc4 fc5
+fc_3.weight
+fc_3.bias
+fc_4.weight
+fc_4.bias
+fc_5.weight
+fc_5.bias
+{'eval_loss': 0.48346200585365295, 'eval_accuracy': 0.768348623853211, 'eval_runtime': 49.9159, 'eval_samples_per_second': 17.469, 'eval_steps_per_second': 0.28, 'epoch': 1.0}    
+{'eval_loss': 0.4688010811805725, 'eval_accuracy': 0.7729357798165137, 'eval_runtime': 48.9698, 'eval_samples_per_second': 17.807, 'eval_steps_per_second': 0.286, 'epoch': 2.0}  
+{'train_runtime': 492.6419, 'train_samples_per_second': 273.42, 'train_steps_per_second': 4.275, 'train_loss': 0.5484450794013477, 'epoch': 2.0}
+
+
+fc_3.weight
+fc_3.bias
+fc_31.weight
+fc_31.bias
+fc_32.weight
+fc_32.bias
+fc_4.weight
+fc_4.bias
+fc_5.weight
+fc_5.bias
+'eval_loss': 0.5169256329536438, 'eval_accuracy': 0.7591743119266054, 'eval_runtime': 49.4388, 'eval_samples_per_second': 17.638, 'eval_steps_per_second': 0.283, 'epoch': 1.0} 
+{'eval_loss': 0.4646693170070648, 'eval_accuracy': 0.7740825688073395, 'eval_runtime': 46.7613, 'eval_samples_per_second': 18.648, 'eval_steps_per_second': 0.299, 'epoch': 2.0} 
+{'train_runtime': 490.647, 'train_samples_per_second': 274.531, 'train_steps_per_second': 4.292, 'train_loss': 0.5483597903056928, 'epoch': 2.0}                                                    
+
+
+fc_3.weight
+fc_3.bias
+fc_31.weight
+fc_31.bias
+fc_32.weight
+fc_32.bias
+fc_4.weight
+fc_4.bias
+fc_41.weight
+fc_41.bias
+fc_42.weight
+fc_42.bias
+fc_5.weight
+fc_5.bias
+fc_51.weight
+fc_51.bias
+fc_52.weight
+fc_52.bias
+{'eval_loss': 0.5013582706451416, 'eval_accuracy': 0.7660550458715596, 'eval_runtime': 34.9331, 'eval_samples_per_second': 24.962, 'eval_steps_per_second': 0.401, 'epoch': 1.0}   
+{'eval_loss': 0.45912688970565796, 'eval_accuracy': 0.7855504587155964, 'eval_runtime': 37.1194, 'eval_samples_per_second': 23.492, 'eval_steps_per_second': 0.377, 'epoch': 2.0}  
+
+fc_2.weight
+fc_2.bias
+fc_21.weight
+fc_21.bias
+fc_3.weight
+fc_3.bias
+fc_31.weight
+fc_31.bias
+fc_4.weight
+fc_4.bias
+fc_41.weight
+fc_41.bias
+fc_5.weight
+fc_5.bias
+fc_51.weight
+fc_51.bias
+{'eval_loss': 0.5048037767410278, 'eval_accuracy': 0.7591743119266054, 'eval_runtime': 51.9809, 'eval_samples_per_second': 16.775, 'eval_steps_per_second': 0.269, 'epoch': 1.0}                    
+{'eval_loss': 0.45763999223709106, 'eval_accuracy': 0.7821100917431193, 'eval_runtime': 51.4756, 'eval_samples_per_second': 16.94, 'eval_steps_per_second': 0.272, 'epoch': 2.0}                    
+{'train_runtime': 504.9402, 'train_samples_per_second': 266.76, 'train_steps_per_second': 4.171, 'train_loss': 0.5447789397787618, 'epoch': 2.0}                       
+
+original_model.pre_classifier.weight
+original_model.pre_classifier.bias
+original_model.classifier.weight
+original_model.classifier.bias
+fc_2.weight
+fc_2.bias
+fc_21.weight
+fc_21.bias
+fc_3.weight
+fc_3.bias
+fc_31.weight
+fc_31.bias
+fc_4.weight
+fc_4.bias
+fc_41.weight
+fc_41.bias
+fc_5.weight
+fc_5.bias
+fc_51.weight
+fc_51.bias
+{'eval_loss': 0.47501394152641296, 'eval_accuracy': 0.7740825688073395, 'eval_runtime': 98.9529, 'eval_samples_per_second': 8.812, 'eval_steps_per_second': 0.283, 'epoch': 1.0}                 
+{'eval_loss': 0.46327632665634155, 'eval_accuracy': 0.7694954128440367, 'eval_runtime': 94.8782, 'eval_samples_per_second': 9.191, 'eval_steps_per_second': 0.295, 'epoch': 2.0}                    
+{'eval_loss': 0.4647670388221741, 'eval_accuracy': 0.7740825688073395, 'eval_runtime': 95.3085, 'eval_samples_per_second': 9.149, 'eval_steps_per_second': 0.294, 'epoch': 3.0}                     
+{'eval_loss': 0.4604529142379761, 'eval_accuracy': 0.7821100917431193, 'eval_runtime': 97.9163, 'eval_samples_per_second': 8.906, 'eval_steps_per_second': 0.286, 'epoch': 4.0}              
+{'eval_loss': 0.46510592103004456, 'eval_accuracy': 0.7752293577981652, 'eval_runtime': 99.0299, 'eval_samples_per_second': 8.805, 'eval_steps_per_second': 0.283, 'epoch': 5.0}                    
+{'eval_loss': 0.45754823088645935, 'eval_accuracy': 0.7798165137614679, 'eval_runtime': 95.8499, 'eval_samples_per_second': 9.098, 'eval_steps_per_second': 0.292, 'epoch': 6.0}                    
+{'eval_loss': 0.4514458477497101, 'eval_accuracy': 0.786697247706422, 'eval_runtime': 117.3943, 'eval_samples_per_second': 7.428, 'eval_steps_per_second': 0.239, 'epoch': 7.0}                     
+{'eval_loss': 0.4508837163448334, 'eval_accuracy': 0.7924311926605505, 'eval_runtime': 125.3277, 'eval_samples_per_second': 6.958, 'eval_steps_per_second': 0.223, 'epoch': 8.0}             
+{'eval_loss': 0.4447152614593506, 'eval_accuracy': 0.7947247706422018, 'eval_runtime': 109.8205, 'eval_samples_per_second': 7.94, 'eval_steps_per_second': 0.255, 'epoch': 9.0}                            
+{'eval_loss': 0.4492807984352112, 'eval_accuracy': 0.7935779816513762, 'eval_runtime': 98.0684, 'eval_samples_per_second': 8.892, 'eval_steps_per_second': 0.286, 'epoch': 10.0}                    
+                             
+
+
+transformer逐层训练
+original_model.distilbert.transformer.layer.0
+{'eval_loss': 0.4619676172733307, 'eval_accuracy': 0.7809633027522935, 'eval_runtime': 89.8412, 'eval_samples_per_second': 9.706, 'eval_steps_per_second': 0.312, 'epoch': 1.0}                     
+{'eval_loss': 0.45807909965515137, 'eval_accuracy': 0.7935779816513762, 'eval_runtime': 99.7705, 'eval_samples_per_second': 8.74, 'eval_steps_per_second': 0.281, 'epoch': 2.0}                     
+{'train_runtime': 666.6484, 'train_samples_per_second': 202.053, 'train_steps_per_second': 6.315, 'train_loss': 0.48403280987592323, 'epoch': 2.0}                                                  
+original_model.distilbert.transformer.layer.1
+{'eval_loss': 0.4769895374774933, 'eval_accuracy': 0.7981651376146789, 'eval_runtime': 120.047, 'eval_samples_per_second': 7.264, 'eval_steps_per_second': 0.233, 'epoch': 1.0}                     
+{'eval_loss': 0.45535919070243835, 'eval_accuracy': 0.7924311926605505, 'eval_runtime': 122.4545, 'eval_samples_per_second': 7.121, 'eval_steps_per_second': 0.229, 'epoch': 2.0}                   
+{'train_runtime': 720.4405, 'train_samples_per_second': 186.966, 'train_steps_per_second': 5.844, 'train_loss': 0.4036355877149133, 'epoch': 2.0}                                                   
+original_model.distilbert.transformer.layer.2
+{'eval_loss': 0.4884234666824341, 'eval_accuracy': 0.8004587155963303, 'eval_runtime': 141.2352, 'eval_samples_per_second': 6.174, 'eval_steps_per_second': 0.198, 'epoch': 1.0}                    
+{'eval_loss': 0.44762134552001953, 'eval_accuracy': 0.8027522935779816, 'eval_runtime': 138.8137, 'eval_samples_per_second': 6.282, 'eval_steps_per_second': 0.202, 'epoch': 2.0}                   
+{'train_runtime': 758.1535, 'train_samples_per_second': 177.666, 'train_steps_per_second': 5.553, 'train_loss': 0.3908690228314977, 'epoch': 2.0}                                                   
+original_model.distilbert.transformer.layer.3
+{'eval_loss': 0.48158901929855347, 'eval_accuracy': 0.8027522935779816, 'eval_runtime': 144.7062, 'eval_samples_per_second': 6.026, 'eval_steps_per_second': 0.193, 'epoch': 1.0}                   
+{'eval_loss': 0.4443991780281067, 'eval_accuracy': 0.8004587155963303, 'eval_runtime': 142.9476, 'eval_samples_per_second': 6.1, 'eval_steps_per_second': 0.196, 'epoch': 2.0}                      
+{'train_runtime': 766.1464, 'train_samples_per_second': 175.812, 'train_steps_per_second': 5.495, 'train_loss': 0.38232026270053165, 'epoch': 2.0}                                                  
+original_model.distilbert.transformer.layer.4
+{'eval_loss': 0.4705791771411896, 'eval_accuracy': 0.805045871559633, 'eval_runtime': 143.8082, 'eval_samples_per_second': 6.064, 'eval_steps_per_second': 0.195, 'epoch': 1.0}                     
+{'eval_loss': 0.44426971673965454, 'eval_accuracy': 0.8084862385321101, 'eval_runtime': 138.2701, 'eval_samples_per_second': 6.306, 'eval_steps_per_second': 0.203, 'epoch': 2.0}                   
+original_model.distilbert.transformer.layer.5
+original_model.pre_classifier.weight
+original_model.pre_classifier.bias
+original_model.classifier.weight
+original_model.classifier.bias
+{'eval_loss': 0.44525450468063354, 'eval_accuracy': 0.8038990825688074, 'eval_runtime': 144.9859, 'eval_samples_per_second': 6.014, 'eval_steps_per_second': 0.193, 'epoch': 1.0}                   
+{'eval_loss': 0.4300198256969452, 'eval_accuracy': 0.8107798165137615, 'eval_runtime': 142.5228, 'eval_samples_per_second': 6.118, 'eval_steps_per_second': 0.196, 'epoch': 2.0}                    
+{'train_runtime': 766.8969, 'train_samples_per_second': 175.64, 'train_steps_per_second': 5.49, 'train_loss': 0.33591185544845326, 'epoch': 2.0}                                                    
+
+
+
+全部参数训练
+{'eval_loss': 0.3227018713951111, 'eval_accuracy': 0.8784403669724771, 'eval_runtime': 16.2692, 'eval_samples_per_second': 53.598, 'eval_steps_per_second': 0.861, 'epoch': 1.0}
+{'eval_loss': 0.3469529151916504, 'eval_accuracy': 0.8887614678899083, 'eval_runtime': 20.8873, 'eval_samples_per_second': 41.748, 'eval_steps_per_second': 0.67, 'epoch': 2.0}
+{'train_runtime': 963.3848, 'train_samples_per_second': 139.817, 'train_steps_per_second': 2.186, 'train_loss': 0.19953370479210603, 'epoch': 2.0}
+
+
+LoRA
+	r=8
+	alpha=32
+        "transformer.layer.5.attention.q_lin",
+        "transformer.layer.5.attention.k_lin",
+        "transformer.layer.5.attention.v_lin",
+        "pre_classifier"
+{'train_runtime': 479.33, 'train_samples_per_second': 281.013, 'train_steps_per_second': 4.394, 'train_loss': 0.5101421950323063, 'epoch': 2.0}                 
+Accuracy: 0.7580275229357798
+
+LoRA
+	r=16
+	alpha=32
+	base_model.model.distilbert.transformer.layer.2.attention.out_lin.lora_A.default.weight
+	base_model.model.distilbert.transformer.layer.2.attention.out_lin.lora_B.default.weight
+	base_model.model.distilbert.transformer.layer.3.attention.q_lin.lora_A.default.weight
+	base_model.model.distilbert.transformer.layer.3.attention.q_lin.lora_B.default.weight
+	base_model.model.distilbert.transformer.layer.3.attention.k_lin.lora_A.default.weight
+	base_model.model.distilbert.transformer.layer.3.attention.k_lin.lora_B.default.weight
+	base_model.model.distilbert.transformer.layer.3.attention.v_lin.lora_A.default.weight
+	base_model.model.distilbert.transformer.layer.3.attention.v_lin.lora_B.default.weight
+	base_model.model.distilbert.transformer.layer.3.attention.out_lin.lora_A.default.weight
+	base_model.model.distilbert.transformer.layer.3.attention.out_lin.lora_B.default.weight
+	base_model.model.distilbert.transformer.layer.4.attention.q_lin.lora_A.default.weight
+	base_model.model.distilbert.transformer.layer.4.attention.q_lin.lora_B.default.weight
+	base_model.model.distilbert.transformer.layer.4.attention.k_lin.lora_A.default.weight
+	base_model.model.distilbert.transformer.layer.4.attention.k_lin.lora_B.default.weight
+	base_model.model.distilbert.transformer.layer.4.attention.v_lin.lora_A.default.weight
+	base_model.model.distilbert.transformer.layer.4.attention.v_lin.lora_B.default.weight
+	base_model.model.distilbert.transformer.layer.4.attention.out_lin.lora_A.default.weight
+	base_model.model.distilbert.transformer.layer.4.attention.out_lin.lora_B.default.weight
+	base_model.model.distilbert.transformer.layer.5.attention.q_lin.lora_A.default.weight
+	base_model.model.distilbert.transformer.layer.5.attention.q_lin.lora_B.default.weight
+	base_model.model.distilbert.transformer.layer.5.attention.k_lin.lora_A.default.weight
+	base_model.model.distilbert.transformer.layer.5.attention.k_lin.lora_B.default.weight
+	base_model.model.distilbert.transformer.layer.5.attention.v_lin.lora_A.default.weight
+	base_model.model.distilbert.transformer.layer.5.attention.v_lin.lora_B.default.weight
+	base_model.model.distilbert.transformer.layer.5.attention.out_lin.lora_A.default.weight
+	base_model.model.distilbert.transformer.layer.5.attention.out_lin.lora_B.default.weight
+{'train_runtime': 3499.4772, 'train_samples_per_second': 192.454, 'train_steps_per_second': 6.015, 'train_loss': 0.35274769228031405, 'epoch': 10.0}                                                
+Accuracy: 0.8302752293577982
+
+LoRA
+	r=32
+	alpha=32
+        "transformer.layer.5.attention.q_lin",
+        "transformer.layer.5.attention.k_lin",
+        "transformer.layer.5.attention.v_lin",
+        "pre_classifier"
+{'train_runtime': 480.8468, 'train_samples_per_second': 280.127, 'train_steps_per_second': 4.38, 'train_loss': 0.5096682868225735, 'epoch': 2.0}
+Accuracy: 0.7534403669724771
+
+
+
+LoRA
+	r=32
+	alpha=32
+        "transformer.layer.2.attention.q_lin",
+        "transformer.layer.2.attention.k_lin",
+        "transformer.layer.2.attention.v_lin",
+        "transformer.layer.2.attention.out_lin",
+        "transformer.layer.3.attention.q_lin",
+        "transformer.layer.3.attention.k_lin",
+        "transformer.layer.3.attention.v_lin",
+        "transformer.layer.3.attention.out_lin",
+        "transformer.layer.4.attention.q_lin",
+        "transformer.layer.4.attention.k_lin",
+        "transformer.layer.4.attention.v_lin",
+        "transformer.layer.4.attention.out_lin",
+        "transformer.layer.5.attention.q_lin",
+        "transformer.layer.5.attention.k_lin",
+        "transformer.layer.5.attention.v_lin",
+        "transformer.layer.5.attention.out_lin",
+        "pre_classifier"
+{'train_runtime': 735.7017, 'train_samples_per_second': 183.088, 'train_steps_per_second': 2.863, 'train_loss': 0.45327789038561234, 'epoch': 2.0}      
+Accuracy: 0.805045871559633
+
+LoRA
+	r=128
+	alpha=128
+        "transformer.layer.2.attention.q_lin",
+        "transformer.layer.2.attention.k_lin",
+        "transformer.layer.2.attention.v_lin",
+        "transformer.layer.2.attention.out_lin",
+        "transformer.layer.3.attention.q_lin",
+        "transformer.layer.3.attention.k_lin",
+        "transformer.layer.3.attention.v_lin",
+        "transformer.layer.3.attention.out_lin",
+        "transformer.layer.4.attention.q_lin",
+        "transformer.layer.4.attention.k_lin",
+        "transformer.layer.4.attention.v_lin",
+        "transformer.layer.4.attention.out_lin",
+        "transformer.layer.5.attention.q_lin",
+        "transformer.layer.5.attention.k_lin",
+        "transformer.layer.5.attention.v_lin",
+        "transformer.layer.5.attention.out_lin",
+        "pre_classifier"
+{'train_runtime': 752.3968, 'train_samples_per_second': 179.025, 'train_steps_per_second': 2.799, 'train_loss': 0.4059996700015163, 'epoch': 2.0}
+Accuracy: 0.8245412844036697
+
+LoRA
+	 r=256,
+   	 lora_alpha=256
+	"q_lin",
+        "k_lin",
+        "v_lin",
+        "out_lin",
+	'pre_classifier',
+        'classifier'
+Accuracy: 0.8302752293577982
+Accuracy: 0.8532110091743119
+Accuracy: 0.8589449541284404
+Accuracy: 0.8681192660550459
+Accuracy: 0.8658256880733946
+Accuracy: 0.8658256880733946
+Accuracy: 0.8692660550458715
+Accuracy: 0.8715596330275229
+Accuracy: 0.8772935779816514
+Accuracy: 0.8807339449541285
+
+
+
+
+LoRA+旁路
+	 r=16,
+    	 alpha=32
+	base_model.model.original_model.distilbert.transformer.layer.2.attention.out_lin.lora_A.default.weight
+base_model.model.original_model.distilbert.transformer.layer.2.attention.out_lin.lora_B.default.weight
+base_model.model.original_model.distilbert.transformer.layer.3.attention.q_lin.lora_A.default.weight
+base_model.model.original_model.distilbert.transformer.layer.3.attention.q_lin.lora_B.default.weight
+base_model.model.original_model.distilbert.transformer.layer.3.attention.k_lin.lora_A.default.weight
+base_model.model.original_model.distilbert.transformer.layer.3.attention.k_lin.lora_B.default.weight
+base_model.model.original_model.distilbert.transformer.layer.3.attention.v_lin.lora_A.default.weight
+base_model.model.original_model.distilbert.transformer.layer.3.attention.v_lin.lora_B.default.weight
+base_model.model.original_model.distilbert.transformer.layer.3.attention.out_lin.lora_A.default.weight
+base_model.model.original_model.distilbert.transformer.layer.3.attention.out_lin.lora_B.default.weight
+base_model.model.original_model.distilbert.transformer.layer.4.attention.q_lin.lora_A.default.weight
+base_model.model.original_model.distilbert.transformer.layer.4.attention.q_lin.lora_B.default.weight
+base_model.model.original_model.distilbert.transformer.layer.4.attention.k_lin.lora_A.default.weight
+base_model.model.original_model.distilbert.transformer.layer.4.attention.k_lin.lora_B.default.weight
+base_model.model.original_model.distilbert.transformer.layer.4.attention.v_lin.lora_A.default.weight
+base_model.model.original_model.distilbert.transformer.layer.4.attention.v_lin.lora_B.default.weight
+base_model.model.original_model.distilbert.transformer.layer.4.attention.out_lin.lora_A.default.weight
+base_model.model.original_model.distilbert.transformer.layer.4.attention.out_lin.lora_B.default.weight
+base_model.model.original_model.distilbert.transformer.layer.5.attention.q_lin.lora_A.default.weight
+base_model.model.original_model.distilbert.transformer.layer.5.attention.q_lin.lora_B.default.weight
+base_model.model.original_model.distilbert.transformer.layer.5.attention.k_lin.lora_A.default.weight
+base_model.model.original_model.distilbert.transformer.layer.5.attention.k_lin.lora_B.default.weight
+base_model.model.original_model.distilbert.transformer.layer.5.attention.v_lin.lora_A.default.weight
+base_model.model.original_model.distilbert.transformer.layer.5.attention.v_lin.lora_B.default.weight
+base_model.model.original_model.distilbert.transformer.layer.5.attention.out_lin.lora_A.default.weight
+base_model.model.original_model.distilbert.transformer.layer.5.attention.out_lin.lora_B.default.weight
+base_model.model.fc_2out_lin.weight
+base_model.model.fc_2out_lin.bias
+base_model.model.fc_3out_lin.weight
+base_model.model.fc_3out_lin.bias
+base_model.model.fc_4out_lin.weight
+base_model.model.fc_4out_lin.bias
+{'train_runtime': 1000.659, 'train_samples_per_second': 134.609, 'train_steps_per_second': 8.414, 'train_loss': 0.5173430200427275, 'epoch': 2.0}                                                   
+Accuracy: 0.8142201834862385
+
+
+transformer逐层连接pre_classifier后用LoRA全部训练
+r=16,
+lora_alpha=16
+Accuracy: 0.8165137614678899
+Accuracy: 0.8153669724770642
+Accuracy: 0.8176605504587156
+Accuracy: 0.8176605504587156
+Accuracy: 0.8188073394495413
+Accuracy: 0.819954128440367
+
+r=128
+lora_alpha=128
+Accuracy: 0.8142201834862385
+Accuracy: 0.8153669724770642
+Accuracy: 0.8153669724770642
+Accuracy: 0.8211009174311926
+Accuracy: 0.8153669724770642
+Accuracy: 0.8245412844036697
+
+r=256
+lora_alpha=256
+Accuracy: 0.8211009174311926
+Accuracy: 0.8176605504587156
+Accuracy: 0.8165137614678899
+Accuracy: 0.838302752293578
+Accuracy: 0.8337155963302753
+Accuracy: 0.8463302752293578
